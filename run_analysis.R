@@ -28,6 +28,7 @@ levels(dataset$activity) <- activities$V2
 
 ##create a second, independent tidy data set with the average of each variable
 ##for each activity and each subject
+library(dplyr)
 summary<-summarise_each(group_by(dataset, subject, activity), "mean")
 
 ## write data into a txt file
