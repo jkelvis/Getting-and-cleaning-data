@@ -1,23 +1,3 @@
-#subject: 30 categories dispersed in "test" and "train" folders
-#There are 2947 observations in the test folder, and 7352 observations in the train folder.
-#There are 128 Variables in each file in the train and test folders.
-#X_train is a file of 7352 obs. of  561 variables: Training set;
-#Y_train is a file of 7352 obs. of  1 variable: Training labels;
-
-#subject_train is a file of 7352 obs. of  1 variable:Each row identifies
-#the subject who performed the activity for each window sample.
-#Its range is from 1 to 30
-
-#X_test is a file of 2947 obs. of  561 variables: Test set;
-#Y_test is a file of 2947 obs. of  1 variable: Test labels;
-
-#subject_test is a file of 2947 obs. of  1 variable
-#the subject who performed the activity for each window sample.
-#Its range is from 1 to 30
-
-#features is a file of 561 obs. of  2 variables.It contains 561 feature names
-#to discribe the columns in X_train/text files.
-
 
 ## read relavant data into R
 X_test<-read.table("./UCI HAR Dataset/test/X_test.txt")
