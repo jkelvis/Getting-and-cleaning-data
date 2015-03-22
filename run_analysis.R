@@ -22,7 +22,6 @@ dataset<-dataset[,c(mean_names, std_names, 562, 563)]
 
 
 ##Use descriptive activity names to name the activities in the data set
-tolower(activities$V2)
 dataset$activity <- as.factor(dataset$activity)
 levels(dataset$activity) <- activities$V2
 
